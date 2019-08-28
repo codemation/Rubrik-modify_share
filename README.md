@@ -5,7 +5,7 @@ Purpose: Provide a cli method of modifying a Rubrik NAS Share if the path needs 
 Steps Before Use:
 1. Create an credentials file, containing 'username|pw'. Method: echo -n 'admin:abcd1234' > ~/special_cdm_auth
 
-2. Update auth.cfg within search_and_restore package with credential file location. Method echo -n '~/special_cdm_auth' > auth.cfg
+2. Update auth.cfg within Rubrik-modify_share package/folder with credential file location. Method echo -n '~/special_cdm_auth' > auth.cfg
 
 Usage: 
 
